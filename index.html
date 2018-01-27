@@ -1,6 +1,70 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Louis</title>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
 <body>
-	<h1>hello world</h1>
+
+<header id="header" class="brd ">
+    <div id="myName">Louis</div>
+</header>
+
+<div id="front" class="jumbotron brd">
+    <div id="welcome">True happiness is a large bite on a hamburger</div>
+    <p id="signature">-- i made that up</p>
+</div>
+
+<div id="intro" class="brd">
+
+    <p>Registration Form</p>
+    <form>
+        <fieldset id="account">
+            <legend>account</legend>
+            <label>Name</label><br>
+            <input type="text" name="name">
+            <br><br>
+            <label>password</label><br>
+            <input type="password" name="passward">
+            <br><br>
+        </fieldset>
+        <fieldset id="user">
+            <legend>user info</legend>
+            <label>city</label><br>
+            <select name="location">location
+                <option value="beijing">beijing</option>
+                <option value="hefei" selected>hefei</option>
+                <option value="sanya">sanya</option>
+            </select>
+            <br><br>
+            <label>gender</label>
+            <input type="radio" name="gender" value="male" checked>
+            male
+            <input type="radio" name="gender" value="female">
+            female
+            <br><br>
+        </fieldset>
+
+    </form>
+
+
+
+</div>
+
+<footer id="footer" class="brd">
+    <p>Copyright &copy; 2018</p>
+</footer>
+
 </body>
 </html>
